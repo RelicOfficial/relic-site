@@ -4,7 +4,7 @@ body {
 }
 .hero {
     background: #E8D3B0;
-    min-height: 420px;
+    height: 420px;
     display: flex;
     justify-content: flex-between;
     align-items: center;
