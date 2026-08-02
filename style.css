@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "georgia", serif;
 }
 
 .hero {
@@ -21,6 +21,7 @@ body {
     font-size: 52px;
     color: #171717;
     margin-bottom: 25px;
+    font-weight: 400;
     font-weight: 600;
 }
 
