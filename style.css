@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "georgia", serif;
+    font-family: "Courier New", monospace;
 }
 
 .hero {
@@ -18,11 +18,12 @@ body {
 }
 
 .hero h1 {
+    font-family: "Georgia", serif;
     font-size: 52px;
     color: #171717;
     margin-bottom: 25px;
     font-weight: 400;
-    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .hero p {
