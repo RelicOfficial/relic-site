@@ -30,3 +30,8 @@ body {
     font-style: italic;
     font-family: "Times New Roman", serif;
 }
+
+.logo-placeholder img {
+    width: 180px;
+    height: auto;
+}
