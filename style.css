@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: flex-between;
     align-items: center;
-    padding: 30px 100px;
+    padding: 20px 100px;
 }
 .hero-text {
     max-width: 600px;
