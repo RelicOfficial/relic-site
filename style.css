@@ -4,16 +4,18 @@ body {
 }
 .hero {
     background: #E8D3B0;
-    height: 420px;
+    height: 220px;
     display: flex;
     justify-content: flex-between;
     align-items: center;
-    padding: 60px 100px;
+    padding: 30px 100px;
 }
 .hero-text {
     max-width: 600px;
     margin-left: auto;
+    margin-top: -20px;
     text-align: left;
+}
 }
 .hero h1 {
     font-family: "Georgia", serif;
