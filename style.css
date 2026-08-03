@@ -118,7 +118,7 @@ body {
     font-family: "Georgia", serif;
     font-size: 32px;
     margin: 0;
-    color: #222;
+   color: #F5E8D3;
 }
 
 
@@ -126,13 +126,13 @@ body {
     max-width: 450px;
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+   color: #E6DDD0;
 }
 
 
 .collection-info {
     font-size: 15px;
-    color: #8a6e3b;
+   color: #D8C7A3;
 }
 
 
