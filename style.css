@@ -114,8 +114,8 @@ body {
 }
 
 .main-card .big{
-    width:300px;
-    height:420px;
+    width:220px;
+    height:310px;
 }
 
 .mini-cards{
@@ -135,16 +135,16 @@ body {
 }
 
 .small{
-    width:80px;
-    height:110px;
+    width:60px;
+    height:85px;
 }
 
 .collection-content{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-top:40px;
-    gap:30px;
+    margin-top:20px;
+    gap:20px;
 }
 
 .collection-content h2{
