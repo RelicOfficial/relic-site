@@ -154,3 +154,27 @@ body {
 .collection-content button:hover {
     background: #b18d4d;
 }
+.collection {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.background-pattern {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("R.rep.png");
+    background-size: cover;
+    background-position: left bottom;
+
+    opacity: 0.1;
+
+    z-index: 0;
+}
+
+
+.collection > *:not(.background-pattern) {
+    position: relative;
+    z-index: 1;
+}
