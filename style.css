@@ -4,11 +4,13 @@ body {
 }
 .hero {
     background: #E8D3B0;
-    height: 230px;
+    height: 220px;
     display: flex;
     justify-content: flex-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 0 100px;
+    overflow: hidden;
+}
 }
 .hero-text {
     max-width: 600px;
