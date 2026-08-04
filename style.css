@@ -232,3 +232,32 @@ background: #234238;
 .hero-move {
     transform: translateY(-40px);
 }
+.hero-wrapper {
+    position: relative;
+}
+
+.hero {
+    position: relative;
+    z-index: 2;
+    transition: transform 0.8s ease;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #8A5A3B;
+    z-index: 1;
+    transform: translateY(0);
+    transition: transform 0.8s ease 0.15s;
+}
+
+.hero-move {
+    transform: translateY(-50px);
+}
+
+.hero-move + .hero-shadow {
+    transform: translateY(-50px);
+}
