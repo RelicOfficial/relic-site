@@ -167,22 +167,5 @@ background: #234238;
 .collection-section {
     position: relative;
 }
-.background-pattern {
-   display: none;
-    position: absolute;
 
-    top: 260px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    background-image: url("R.rep.png");
-    background-repeat: repeat;
-    background-position: left bottom;
-    background-size: 350px;
-
-    opacity: 0.10;
-
-    z-index: 0;
-}
 
