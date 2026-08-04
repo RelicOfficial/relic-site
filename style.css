@@ -232,17 +232,21 @@ background: #234238;
 .hero {
     position: relative;
     z-index: 1;
-    transition: transform 0.8s ease, opacity 0.8s ease;
+    transition: transform 0.8s ease;
 }
+
 .hero-move {
     transform: translateY(-120px);
 }
 .hero-shadow {
     width: 100%;
-    height: 36px; /* ≈15% d'une bannière de 240px */
-    background: #DCC49E; /* Beige légèrement plus foncé */
+    height: 36px;
+    background: #DCC49E;
 
-    margin-top: -4px;
+    margin-top: -36px;
+
+    position: relative;
+    z-index: 0;
 
     transition: transform 0.8s ease 0.15s;
 }
