@@ -12,3 +12,23 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+const universBoxes = document.querySelectorAll(".univers-box");
+
+window.addEventListener("scroll", () => {
+
+    universBoxes.forEach(box => {
+
+        const position = box.getBoundingClientRect().top;
+
+        if (position < window.innerHeight - 100) {
+            box.classList.add("show");
+        } else {
+            box.classList.remove("show");
+        }
+
+    });
+
+});
+
+
