@@ -1,10 +1,12 @@
-window.addEventListener("scroll", () => {
+let lastScroll = 0;
+const hero = document.querySelector(".hero");
 
-    const hero = document.querySelector(".hero");
+window.addEventListener("scroll", () => {
 
     if (window.scrollY > 100) {
         hero.classList.add("hero-move");
-    } else {
+    } 
+    else {
         hero.classList.remove("hero-move");
     }
 
