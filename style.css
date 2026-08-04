@@ -167,5 +167,29 @@ background: #234238;
 .collection-section {
     position: relative;
 }
+.univers {
+    background: #171717;
+    padding: 100px 15%;
+    text-align: center;
+}
 
+.univers-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.univers h2 {
+    color: #f8f5ef;
+    font-family: "Georgia", serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.univers p {
+    color: #d8d2c8;
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
 
