@@ -231,7 +231,7 @@ background: #234238;
 
 .hero {
     position: relative;
-    z-index: 2;
+    z-index: 1;
     transition: transform 0.8s ease, opacity 0.8s ease;
 }
 .hero-move {
