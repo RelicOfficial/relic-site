@@ -166,7 +166,6 @@ background: #234238;
 .collection-section {
     position: relative;
 }
-
 .background-pattern {
     position: absolute;
     top: 220px;
@@ -177,7 +176,7 @@ bottom: 0;
     background-image: url("R.rep.png");
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: 85;
+    background-size: 85%;
 
     opacity: 0.10;
 
