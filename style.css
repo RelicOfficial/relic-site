@@ -193,3 +193,35 @@ background: #234238;
     margin-bottom: 25px;
     font-style: italic;
 }
+/* CORRECTION UNIVERS */
+
+.univers {
+    background: #E8D3B0 !important;
+    padding: 100px 15% !important;
+    text-align: center !important;
+    display: block !important;
+}
+
+.univers-content {
+    max-width: 900px !important;
+    margin: auto !important;
+    display: block !important;
+}
+
+.univers h2 {
+    color: #171717 !important;
+    font-family: "Georgia", serif !important;
+    font-size: 45px !important;
+    font-weight: 400 !important;
+    margin-bottom: 40px !important;
+    display: block !important;
+}
+
+.univers p {
+    color: #333333 !important;
+    font-size: 19px !important;
+    line-height: 1.8 !important;
+    margin-bottom: 25px !important;
+    font-style: italic !important;
+    display: block !important;
+}
