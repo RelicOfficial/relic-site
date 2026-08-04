@@ -168,34 +168,28 @@ background: #234238;
     position: relative;
 }
 .univers {
-    background: #8A5A3B;
-    padding: 90px 10%;
+    background: #E8D3B0;
+    padding: 100px 15%;
+    text-align: center;
 }
 
 .univers-content {
-    display: flex;
-    align-items: center;
-    gap: 60px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .univers h2 {
-    color: #f8f5ef;
+    color: #171717;
     font-family: "Georgia", serif;
     font-size: 45px;
     font-weight: 400;
-    min-width: 300px;
-    margin: 0;
+    margin-bottom: 40px;
 }
 
 .univers p {
-    color: #f5eadc;
+    color: #333333;
     font-size: 19px;
     line-height: 1.8;
+    margin-bottom: 25px;
     font-style: italic;
-    margin-bottom: 20px;
-}
-.hero-shadow {
-    background: #5C4033;
-    height: 55px;
-    width: 100%;
 }
