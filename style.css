@@ -225,3 +225,10 @@ background: #234238;
     font-style: italic !important;
     display: block !important;
 }
+.hero {
+    transition: transform 0.8s ease;
+}
+
+.hero-move {
+    transform: translateY(-40px);
+}
