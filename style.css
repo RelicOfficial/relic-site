@@ -169,12 +169,15 @@ background: #234238;
 
 .background-pattern {
     position: absolute;
-    inset: 0;
+    top: 220px;
+left: 0;
+right: 0;
+bottom: 0;
 
     background-image: url("R.rep.png");
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: cover;
+    background-size: 85;
 
     opacity: 0.10;
 
