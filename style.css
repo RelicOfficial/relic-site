@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     font-family: "Courier New", monospace;
 }
@@ -241,6 +241,9 @@ background: #234238;
     width: 100%;
     height: 36px; /* ≈15% d'une bannière de 240px */
     background: #DCC49E; /* Beige légèrement plus foncé */
+
+    margin-top: -4px;
+
     transition: transform 0.8s ease 0.15s;
 }
 
