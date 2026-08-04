@@ -273,16 +273,14 @@ background: #234238;
     opacity: 1;
     transform: translateY(0);
 }
-
-
 .univers-box h2 {
     color: #171717;
     font-family: "Georgia", serif;
     font-size: 38px;
     font-weight: 400;
     margin-bottom: 30px;
+    min-height: 90px;
 }
-
 
 .univers-box p {
     color: #333333;
