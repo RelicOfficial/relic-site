@@ -226,12 +226,14 @@ background: #234238;
     display: block !important;
 }
 .hero {
-    transition: transform 0.8s ease;
+    transition: transform 0.8s ease, opacity 0.8s ease;
 }
 
 .hero-move {
-    transform: translateY(-40px);
+    transform: translateY(-120px);
+    opacity: 0;
 }
+
 .hero-wrapper {
     position: relative;
 }
