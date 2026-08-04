@@ -61,7 +61,8 @@ body {
 
     margin: 80px;
     padding: 50px;
-
+position: relative;
+z-index: 1;
     background: #234238;
 
     border-radius: 28px;
@@ -161,16 +162,21 @@ body {
 z-index: 1;
 background: #234238;
 }
+}
+.collection-section {
+    position: relative;
+}
+
 .background-pattern {
     position: absolute;
     inset: 0;
 
     background-image: url("R.rep.png");
-    background-size: cover;
-    background-position: left bottom;
     background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
 
-    opacity: 0.1;
+    opacity: 0.10;
 
     z-index: 0;
 }
