@@ -179,7 +179,7 @@ background: #234238;
 }
 
 .univers h2 {
-    color: #f8f5ef;
+    color: #171717;
     font-family: "Georgia", serif;
     font-size: 45px;
     font-weight: 400;
@@ -187,9 +187,8 @@ background: #234238;
 }
 
 .univers p {
-    color: #d8d2c8;
+    color: #333333;
     font-size: 19px;
     line-height: 1.8;
     margin-bottom: 25px;
 }
-
