@@ -289,3 +289,7 @@ background: #234238;
     font-style: italic;
     margin-bottom: 25px;
 }
+.univers-box p {
+    font-family: "Cormorant Garamond", serif;
+}
+
