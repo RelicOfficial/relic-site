@@ -194,4 +194,30 @@ background: #234238;
     font-style: italic;
     margin-bottom: 20px;
 }
+.hero-dark {
+    background: #5C4033;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.hero-dark-text {
+    max-width: 700px;
+}
+
+.hero-dark h2 {
+    color: #f8f5ef;
+    font-family: "Georgia", serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.hero-dark p {
+    color: #eadccc;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+}
