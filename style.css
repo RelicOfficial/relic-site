@@ -169,7 +169,7 @@ background: #234238;
 }
 .univers {
     background: #E8D3B0;
-    padding: 100px 15%;
+    padding: 60px 15%;
     text-align: center;
 }
 
@@ -276,7 +276,7 @@ background: #234238;
 .univers-box h2 {
     color: #171717;
     font-family: "Georgia", serif;
-    font-size: 38px;
+   font-size: 44px;
     font-weight: 400;
     margin-bottom: 30px;
     min-height: 90px;
@@ -284,7 +284,7 @@ background: #234238;
 
 .univers-box p {
     color: #333333;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1.8;
     font-style: italic;
     margin-bottom: 25px;
