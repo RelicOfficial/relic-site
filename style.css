@@ -295,11 +295,11 @@ background: #234238;
     width: 95px;
     border-radius: 12px;
 
-    transition: 
-        left 2.5s ease,
-        top 2.5s ease,
-        width 2.5s ease,
-        opacity 2.5s ease;
+   transition: 
+    left 2.5s ease,
+    top 2.5s ease,
+    width 2.5s ease,
+    opacity 0.5s ease;
 }
 
 
@@ -334,6 +334,8 @@ background: #234238;
     top: 70px;
     width: 85px;
     z-index: 0;
+
+    transition: opacity 0.3s ease;
 }
 
 .card {
