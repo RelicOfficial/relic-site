@@ -41,12 +41,10 @@ function moveCards() {
         card.classList.remove(
             "card-left",
             "card-center",
-            "card-right",
-            "hidden"
+            "card-right"
         );
     });
-
-
+    
     let left = (currentIndex - 1 + cards.length) % cards.length;
     let center = currentIndex;
     let right = (currentIndex + 1) % cards.length;
@@ -56,18 +54,18 @@ function moveCards() {
     cards[center].classList.add("card-center");
     cards[right].classList.add("card-right");
 
-
-    cards.forEach((card, index) => {
-        if (
-            index !== left &&
-            index !== center &&
-            index !== right
-        ) {
-            card.classList.add("hidden");
-        }
-    });
-
-
+cards.forEach((card, index) => {
+    if (
+        index !== left &&
+        index !== center &&
+        index !== right
+    ) {
+        card.classList.add("hidden");
+    } else {
+        card.classList.remove("hidden");
+    }
+});
+    
     currentIndex = (currentIndex + 1) % cards.length;
 }
 
