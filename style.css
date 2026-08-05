@@ -78,12 +78,6 @@
     flex-shrink: 0;
 }
 
-.card2,
-.card3,
-.card4 {
-    z-index: 2;
-}
-
 /* TEXTE COLLECTION */
 
 .collection-content {
@@ -296,6 +290,19 @@ background: #234238;
         transparent 100%
     );
 }
+.card {
+    position: absolute;
+    width: 95px;
+    border-radius: 12px;
+
+    transition: 
+        left 2.5s ease,
+        top 2.5s ease,
+        width 2.5s ease,
+        opacity 2.5s ease;
+}
+
+
 .card-left {
     left: 20px;
     top: 70px;
@@ -319,6 +326,7 @@ background: #234238;
     opacity: 0.65;
     z-index: 2;
 }
+
 
 .hidden {
     opacity: 0;
