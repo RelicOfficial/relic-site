@@ -327,10 +327,13 @@ background: #234238;
     z-index: 2;
 }
 
-
 .hidden {
     opacity: 0;
     pointer-events: none;
+    left: 20px;
+    top: 70px;
+    width: 85px;
+    z-index: 0;
 }
 
 .card {
