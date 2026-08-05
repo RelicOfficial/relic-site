@@ -77,15 +77,18 @@
     height: 320px;
     flex-shrink: 0;
 }
-
 .card {
     position: absolute;
-
     width: 95px;
     border-radius: 12px;
 
-    transition: 0.4s ease;
+    transition: 
+        left 2.5s ease,
+        top 2.5s ease,
+        width 2.5s ease,
+        opacity 2.5s ease;
 }
+
 .card1 {
     display: none;
 }
