@@ -87,10 +87,7 @@
     transition: 0.4s ease;
 }
 .card1 {
-    left: 0px;
-    top: 90px;
-    width: 65px;
-    opacity: 0.25;
+    display: none;
 }
 
 .card2 {
@@ -116,10 +113,7 @@
 }
 
 .card5 {
-    left: 315px;
-    top: 90px;
-    width: 65px;
-    opacity: 0.25;
+    display: none;
 }
 
 .card6 {
