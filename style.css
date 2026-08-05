@@ -53,19 +53,21 @@
 
 
 /* COLLECTION */
-
 .collection {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 
     margin: 80px;
     padding: 50px;
-position: relative;
-z-index: 1;
-    background: #234238;
 
+    position: relative;
+    z-index: 1;
+
+    background: #234238;
     border-radius: 28px;
+
+    overflow: hidden;
 }
 
 /* GALERIE CARTES */
@@ -73,7 +75,9 @@ z-index: 1;
     position: relative;
     width: 360px;
     height: 320px;
+    flex-shrink: 0;
 }
+
 .card {
     position: absolute;
 
