@@ -332,4 +332,32 @@ background: #234238;
         transparent 100%
     );
 }
+.card-left {
+    left: 20px;
+    top: 70px;
+    width: 85px;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+.card-center {
+    left: 105px;
+    top: 15px;
+    width: 155px;
+    opacity: 1;
+    z-index: 5;
+}
+
+.card-right {
+    left: 255px;
+    top: 70px;
+    width: 85px;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 
