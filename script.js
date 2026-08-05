@@ -37,38 +37,42 @@ let currentIndex = 2;
 
 function moveCards() {
 
-    cards.forEach(card => {
-        card.classList.remove(
-            "card-left",
-            "card-center",
-            "card-right"
-        );
-    });
-    
     let left = (currentIndex - 1 + cards.length) % cards.length;
     let center = currentIndex;
     let right = (currentIndex + 1) % cards.length;
 
 
-    cards[left].classList.add("card-left");
-    cards[center].classList.add("card-center");
-    cards[right].classList.add("card-right");
+    cards.forEach((card, index) => {
 
-cards.forEach((card, index) => {
-    if (
-        index !== left &&
-        index !== center &&
-        index !== right
-    ) {
-        card.classList.add("hidden");
-    } else {
-        card.classList.remove("hidden");
-    }
-});
-    
+        card.classList.remove(
+            "card-left",
+            "card-center",
+            "card-right",
+            "hidden"
+        );
+
+
+        if (index === left) {
+            card.classList.add("card-left");
+        }
+
+        else if (index === center) {
+            card.classList.add("card-center");
+        }
+
+        else if (index === right) {
+            card.classList.add("card-right");
+        }
+
+        else {
+            card.classList.add("hidden");
+        }
+
+    });
+
+
     currentIndex = (currentIndex + 1) % cards.length;
 }
-
 
 moveCards();
 
