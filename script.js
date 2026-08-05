@@ -44,28 +44,20 @@ function moveCards() {
 
     cards.forEach((card, index) => {
 
-        card.classList.remove(
-            "card-left",
-            "card-center",
-            "card-right",
-            "hidden"
-        );
-
-
         if (index === left) {
-            card.classList.add("card-left");
+            card.className = "card card-left";
         }
 
         else if (index === center) {
-            card.classList.add("card-center");
+            card.className = "card card-center";
         }
 
         else if (index === right) {
-            card.classList.add("card-right");
+            card.className = "card card-right";
         }
 
         else {
-            card.classList.add("hidden");
+            card.className = "card hidden";
         }
 
     });
