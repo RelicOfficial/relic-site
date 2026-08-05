@@ -333,3 +333,7 @@ background: #234238;
     pointer-events: none;
 }
 
+.card {
+    transform: none;
+}
+
