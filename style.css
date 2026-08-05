@@ -338,5 +338,45 @@ background: #234238;
 
 }
 
+.card-center {
+    position: absolute;
+}
+
+.card-center::after {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid rgba(232,211,176,0.65);
+    border-radius: 14px;
+
+    transform: translate(-50%, -50%) scale(1);
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.card-center.wave::after {
+    animation: shockwave 0.9s ease-out;
+}
+
+@keyframes shockwave {
+
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.7);
+        opacity: 0;
+    }
+
+}
 
 
