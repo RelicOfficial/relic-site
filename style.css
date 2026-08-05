@@ -89,10 +89,6 @@
         opacity 2.5s ease;
 }
 
-.card1 {
-    display: none;
-}
-
 .card2 {
     left: 45px;
     top: 70px;
@@ -113,14 +109,6 @@
     top: 70px;
     width: 80px;
     opacity: 0.6;
-}
-
-.card5 {
-    display: none;
-}
-
-.card6 {
-    display: none;
 }
 
 /* TEXTE COLLECTION */
