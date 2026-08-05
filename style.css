@@ -295,13 +295,14 @@ background: #234238;
     width: 95px;
     border-radius: 12px;
 
-   transition: 
-    left 2.5s ease,
-    top 2.5s ease,
-    width 2.5s ease,
-    opacity 0.5s ease;
-}
+    transition:
+        left 2.5s ease,
+        top 2.5s ease,
+        width 2.5s ease,
+        opacity 2.5s ease;
 
+    transform: translateZ(0);
+}
 
 .card-left {
     left: 20px;
@@ -316,7 +317,7 @@ background: #234238;
     top: 15px;
     width: 155px;
     opacity: 1;
-    z-index: 10;
+    z-index: 3;
 }
 
 .card-right {
@@ -324,7 +325,7 @@ background: #234238;
     top: 70px;
     width: 85px;
     opacity: 0.65;
-    z-index: 2;
+    z-index: 1;
 }
 
 .hidden {
@@ -337,8 +338,5 @@ background: #234238;
 
 }
 
-.card {
-    position: absolute;
-    transform: translateZ(0);
-}
+
 
