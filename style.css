@@ -308,7 +308,7 @@ background: #234238;
     top: 70px;
     width: 85px;
     opacity: 0.65;
-    z-index: 2;
+    z-index: 1;
 }
 
 .card-center {
