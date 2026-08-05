@@ -306,3 +306,30 @@ background: #234238;
     font-family: "Cormorant Garamond", serif;
 }
 
+.gallery-mask {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.gallery-mask.left {
+    left: 0;
+    background: linear-gradient(
+        to right,
+        #234238 0%,
+        transparent 100%
+    );
+}
+
+.gallery-mask.right {
+    right: 0;
+    background: linear-gradient(
+        to left,
+        #234238 0%,
+        transparent 100%
+    );
+}
+
