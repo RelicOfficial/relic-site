@@ -299,7 +299,7 @@ background: #234238;
     left 2.5s ease,
     top 2.5s ease,
     width 2.5s ease,
-    opacity 0.5s ease;
+    opacity 0.2s ease;
 }
 
 
@@ -335,7 +335,7 @@ background: #234238;
     width: 85px;
     z-index: 0;
 
-    transition: opacity 0.3s ease;
+    transition: opacity 0.1s ease;
 }
 
 .card {
