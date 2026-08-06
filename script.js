@@ -41,7 +41,6 @@ function moveCards() {
     let center = currentIndex;
     let right = (currentIndex + 1) % cards.length;
 
-
     cards.forEach((card, index) => {
 
         if (index === left) {
@@ -51,13 +50,7 @@ function moveCards() {
         else if (index === center) {
             card.className = "card card-center";
         }
-            
-card.classList.add("wave");
 
-setTimeout(() => {
-    card.classList.remove("wave");
-}, 900);
-        
         else if (index === right) {
             card.className = "card card-right";
         }
@@ -68,13 +61,10 @@ setTimeout(() => {
 
     });
 
-
     currentIndex = (currentIndex + 1) % cards.length;
 }
 
 moveCards();
 
 setInterval(moveCards, 5000);
-
-
 
