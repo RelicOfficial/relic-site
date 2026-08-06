@@ -140,7 +140,7 @@ background: #234238;
 }
 .univers {
     background: #E8D3B0;
-    padding: 60px 15%;
+   padding: 40px 15% 80px;
     text-align: center;
 }
 
@@ -244,22 +244,23 @@ background: #234238;
     opacity: 1;
     transform: translateY(0);
 }
+
 .univers-box h2 {
     color: #171717;
     font-family: "Georgia", serif;
-   font-size: 44px;
+    font-size: 52px;
     font-weight: 400;
-    margin-bottom: 30px;
-    min-height: 90px;
+    margin-bottom: 40px;
 }
 
 .univers-box p {
     color: #333333;
-    font-size: 21px;
-    line-height: 1.8;
+    font-size: 25px;
+    line-height: 1.9;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
+
 .univers-box p {
     font-family: "Cormorant Garamond", serif;
 }
