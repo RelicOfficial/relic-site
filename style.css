@@ -397,3 +397,27 @@ body {
     font-style: italic;
     margin-bottom: 30px;
 }
+
+/* ===== LOGO TEST TEMPORAIRE ===== */
+
+.logo-test {
+    position: absolute;
+
+    left: 100px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+
+    z-index: 5;
+}
+
+
+.logo-test img {
+    width: 120px;
+    height: auto;
+
+    display: block;
+}
+
+
+/* ===== FIN LOGO TEST ===== */
