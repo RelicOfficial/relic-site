@@ -33,7 +33,7 @@ body {
 
 .hero-text {
     max-width: 600px;
-    margin-left: auto;
+    margin-left: 80;
 
     display: flex;
     flex-direction: column;
