@@ -383,18 +383,18 @@ body {
 .univers-box h2 {
     color: #171717;
     font-family: "Georgia", serif;
-    font-size: 31px;
+    font-size: 37px;
     font-weight: 400;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 }
 
 .univers-box p {
     color: #333333;
     font-family: "Cormorant Garamond", serif;
-    font-size: 17px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.7;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 /* ===== LOGO TEST TEMPORAIRE ===== */
