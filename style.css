@@ -31,7 +31,6 @@ body {
     transform: translateY(-120px);
 }
 
-
 .hero-text {
     max-width: 600px;
     margin-left: auto;
@@ -39,8 +38,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
+    transform: translateY(-10px);
+}
 
 .hero h1 {
     font-family: "Georgia", serif;
