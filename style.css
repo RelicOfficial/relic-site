@@ -420,3 +420,48 @@ body {
 
 
 /* ===== FIN LOGO TEST ===== */
+/* =========================
+DISCOVERY
+========================= */
+
+.discovery {
+
+    background: #111111;
+
+    padding: 70px 20%;
+
+    text-align: center;
+
+}
+
+
+.discovery h2 {
+
+    color: #F5E8D3;
+
+    font-family: "Georgia", serif;
+
+    font-size: 34px;
+
+    font-weight: 400;
+
+    margin-bottom: 30px;
+
+}
+
+
+.discovery p {
+
+    color: #D8D8D8;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 19px;
+
+    line-height: 1.8;
+
+    font-style: italic;
+
+    margin-bottom: 20px;
+
+}
