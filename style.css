@@ -51,15 +51,15 @@ body {
     letter-spacing: 1px;
 }
 
-
 .description {
     font-size: 19px;
     color: #333333;
     line-height: 1.4;
     font-style: italic;
     font-family: "Times New Roman", serif;
-}
 
+    transform: translateY(-10px);
+}
 
 /* LOGO */
 
