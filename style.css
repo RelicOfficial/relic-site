@@ -94,8 +94,9 @@ body {
 ========================= */
 .collection-section {
     position: relative;
-    background: #0f0f0f;
+    background: #2b2b2b;
     padding: 40px 0;
+    margin-top: -40px;
 }
 
 .collection {
