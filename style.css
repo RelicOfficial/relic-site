@@ -72,17 +72,14 @@ body {
 /* OMBRE SOUS HERO */
 
 .hero-shadow {
-
     width: 100%;
     height: 72px;
-
     background: #DCC49E;
-
     margin-top: -36px;
-
     transition: transform 0.8s ease 0.15s;
+    position: relative;
+    z-index: 2;
 }
-
 
 .hero-shadow-move {
     transform: translateY(-120px);
