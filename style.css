@@ -92,11 +92,11 @@ body {
 /* =========================
    COLLECTION
 ========================= */
-
 .collection-section {
     position: relative;
+    background: #0f0f0f;
+    padding: 40px 0;
 }
-
 
 .collection {
 
